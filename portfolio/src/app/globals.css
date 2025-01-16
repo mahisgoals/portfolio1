@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-sans;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  @apply font-sans;
+}
+
+.paragraph {
+  @apply font-sans text-sm opacity-50;
+}
